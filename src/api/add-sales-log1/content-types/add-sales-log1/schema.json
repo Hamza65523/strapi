@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_sales_log1s",
+  "info": {
+    "singularName": "add-sales-log1",
+    "pluralName": "add-sales-log1s",
+    "displayName": "AddSalesLog1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProspectingDials": {
+      "type": "integer",
+      "default": 0
+    },
+    "ProspectingContacts": {
+      "type": "integer",
+      "default": 0
+    },
+    "Sales": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "WorkingDays": {
+      "type": "integer",
+      "default": 0,
+      "required": false
+    }
+  }
+}

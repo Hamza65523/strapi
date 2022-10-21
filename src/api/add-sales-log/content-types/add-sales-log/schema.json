@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_sales_logs",
+  "info": {
+    "singularName": "add-sales-log",
+    "pluralName": "add-sales-logs",
+    "displayName": "AddSalesLog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SalesPerson": {
+      "type": "enumeration",
+      "enum": [
+        "Select Sales Person ",
+        "Sopoline Bean",
+        "Racheal Richard",
+        "james",
+        "Gloria Hodge"
+      ],
+      "default": "Select Sales Person ",
+      "required": true
+    },
+    "LogDate": {
+      "type": "date",
+      "default": "2022-09-15",
+      "required": true
+    },
+    "ProspectingDials": {
+      "type": "integer",
+      "default": 0
+    },
+    "ProspectingContacts": {
+      "type": "integer",
+      "default": 0
+    },
+    "Email": {
+      "type": "integer",
+      "default": 0
+    },
+    "Messages": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "SocialMediaMessages": {
+      "type": "integer",
+      "default": 0
+    },
+    "SocialMediaPosts": {
+      "type": "integer",
+      "default": 0
+    },
+    "InboundLeads": {
+      "type": "integer",
+      "default": 0
+    },
+    "AppointmentsBooked": {
+      "type": "integer",
+      "default": 0
+    },
+    "ProposalOffers": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "Pipelinevalues": {
+      "type": "integer",
+      "default": 0
+    },
+    "Salesoutbound": {
+      "type": "integer",
+      "default": 0
+    },
+    "AccountReceived": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

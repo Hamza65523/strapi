@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sales_targets",
+  "info": {
+    "singularName": "sales-target",
+    "pluralName": "sales-targets",
+    "displayName": "SalesTarget",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SalesPerson": {
+      "type": "string"
+    },
+    "PropspectingDials": {
+      "default": 0,
+      "type": "integer"
+    },
+    "ProspectingContacts": {
+      "type": "integer",
+      "default": 0
+    },
+    "Emails": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "Messages": {
+      "type": "integer",
+      "default": 0
+    },
+    "SocialMediaMessages": {
+      "type": "integer"
+    },
+    "SocialMeidaPosts": {
+      "type": "integer",
+      "default": 0
+    },
+    "inboundSales": {
+      "type": "integer",
+      "default": 0
+    },
+    "AppointmentBooked": {
+      "type": "integer",
+      "default": 0
+    },
+    "proposalLeads": {
+      "type": "integer",
+      "default": 0
+    },
+    "proposalOutbounds": {
+      "type": "integer",
+      "default": 0
+    },
+    "pipeline": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales": {
+      "type": "integer",
+      "default": 0
+    },
+    "salesOutbound": {
+      "type": "integer",
+      "default": 0
+    },
+    "accountRecevied": {
+      "type": "integer",
+      "default": 0
+    },
+    "created": {
+      "type": "date"
+    }
+  }
+}
